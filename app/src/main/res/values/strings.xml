@@ -1,0 +1,15 @@
+<resources>
+    <!--Recursos de cadena-->
+    <!--Nombre de la aplicación-->
+    <string name="app_name">ImcApp</string>
+    <!--Texto que se mostrará en el TextView de peso-->
+    <string name="weight">Proporcione el peso en kilogramos:</string>
+    <!--Texto que se mostrará en el TextView de estatura-->
+    <string name="height">Proporcione la estatura en metros:</string>
+    <!--Texto que se mostrará en la etiqueta del botón para calcular el IMC-->
+    <string name="calculate">Calcular</string>
+    <!--Texto que se mostrará en la etiqueta del botón para limpiar los campos de peso, estatura y resultado-->
+    <string name="clean">Limpiar</string>
+    <!--Texto que se mostrará el TextView del resultado-->
+    <string name="imc">El Indice de Masa Corporal (IMC) es: </string>
+</resources>

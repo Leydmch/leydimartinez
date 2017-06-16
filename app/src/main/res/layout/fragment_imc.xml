@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Creación de un TextView para el campo peso -->
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weight"></TextView>
+
+    <!-- Creación de un EditText en el que se ingresará el peso -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/weight"
+        android:digits="0123456789."
+        android:maxLines="1"></EditText>
+
+    <!-- Creación de un TextView para el campo peso -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/height"></TextView>
+
+    <!-- Creación de un EditText en el que se ingresará el peso -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/height"
+        android:digits="0123456789."
+        android:maxLines="1"></EditText>
+
+    <!-- Creación nivel 2 de layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Creación del botón que calcula el imc -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calculate"
+            android:id="@+id/calculate"/>
+
+        <!-- Creación del botón que limpia los campos de peso y estatura -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clean"
+            android:id="@+id/clean"/>
+     </LinearLayout>
+
+    <!-- Creación de un TextView que muestra una oración -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/imc"/>
+
+    <!-- Creación de un Text View que muestra el resultado de IMC -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imc"
+        android:text="0.0"/>
+
+</LinearLayout>
